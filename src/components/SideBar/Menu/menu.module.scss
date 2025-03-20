@@ -11,7 +11,6 @@
 }
 .menu-route p {
 	position: relative;
-	// padding: 0 10px;
 	text-align: left;
 }
 .menu-route p::after {
@@ -25,7 +24,7 @@
 }
 .menu-route p:hover::after{
 	width: 100%;
-	transition: all 0.3s ease;
+	transition: all 0.6s ease;
 }
 .menu-route {
 	display: flex;

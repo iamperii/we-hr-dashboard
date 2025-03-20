@@ -1,0 +1,22 @@
+.card {
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.card .title {
+  font-size: 16px;
+  color: #303030;
+}
+.card .time {
+  color: #686868;
+  font-size: 11px;
+}

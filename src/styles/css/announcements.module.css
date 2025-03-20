@@ -1,0 +1,32 @@
+.announcements {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+}
+
+.announcements-header {
+  padding: 10px 20px 0px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.announcements-header input {
+  height: 20px;
+}
+
+.announcments-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  padding: 16px 20px 0px 20px;
+}

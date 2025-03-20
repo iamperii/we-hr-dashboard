@@ -1,0 +1,25 @@
+@import '../../../styles/variables';
+@import '../../../styles/mixins';
+
+.card {
+	border: 1px solid #e0e0e0;
+	padding: 10px;
+	border-radius: 4px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	.title {
+		font-size: 16px;
+		color: #303030;
+	}
+	.time {
+		color: $secondary-subtitle-color;
+		font-size: 11px;
+	}
+}
+
+.icons{
+	display: flex;
+	gap: 20px;
+}
