@@ -12,28 +12,35 @@ const Dashboard = () => {
 		<>
 			<div className={style.dashboard}>
 				<SideBar />
-				<div class="dashboard-container">
+				<div className={style['dashboard-container']}>
 					<Header />
-					
-					<section class="dashboard-cards">
-						<DashboardCards />
-					</section>
+					<h1>Dashboard</h1>
 
-					<section class="statistics">
-						<StatisticsCard />
-					</section>
+					<div className={style['dashboard-body']}>
+						<div className={style['left-container']}>
+							<section className={style['dashboard-cards']}>
+								<DashboardCards />
+							</section>
 
-					<aside class="activity-panel">
-						<ActivityPanel />
-					</aside>
+							<section className={style.statistics}>
+								<StatisticsCard />
+							</section>
 
-					<section class="announcements">
-						<Announcements />
-					</section>
+							<section className={style.announcements}>
+								<Announcements />
+							</section>
+						</div>
 
-					<section class="schedule-panel">
-						<SchedulePanel />
-					</section>
+						<div className={style['right-container']}>
+							<aside className={style['activity-panel']}>
+								<ActivityPanel />
+							</aside>
+
+							<section className={style['schedule-panel']}>
+								<SchedulePanel />
+							</section>
+						</div>
+					</div>
 				</div>
 			</div>
 		</>
