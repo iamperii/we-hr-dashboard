@@ -13,20 +13,6 @@ WeHR is a modern and user-friendly HR (Human Resources) dashboard designed to he
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React.js (or your preferred JS framework)
-- **Styling**: Tailwind CSS / SCSS / CSS Modules
-- **Icons**: FontAwesome / HeroIcons
-- **State Management**: Redux (optional)
-- **Backend (suggested)**: Node.js, Express.js
-- **Database (suggested)**: MongoDB / MySQL
-
-## 📁 Folder Structure (Suggested)
-
-/src
-/assets
-/components
-/pages
-/styles
-/charts
-App.jsx
-index.jsx
+- **Frontend**: React.js
+- **Styling**: CSS / SCSS / CSS Modules
+- **Icons**: ReactIcons
